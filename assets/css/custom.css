@@ -1,0 +1,22 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tarea,
+.borrar-tarea:hover {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: thin solid lightgray;
+    padding: .5em;
+  }
